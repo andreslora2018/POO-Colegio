@@ -1,0 +1,130 @@
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex c3fd968..7b421aa 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -2,9 +2,8 @@[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="f8f6e104-17c4-44ca-b666-5f66b64dce31" name="Default Changelist" comment="">[m
+[31m-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colegio/comunidad/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colegio/comunidad/Estudiante.java" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />[m
+     </list>[m
+     <ignored path="$PROJECT_DIR$/out/" />[m
+     <ignored path="$PROJECT_DIR$/.gradle/" />[m
+[36m@@ -63,7 +62,7 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file pinned="false" current-in-tab="true">[m
+[32m+[m[32m      <file pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/src/main/java/com/colegio/comunidad/Estudiante.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+             <state relative-caret-position="60">[m
+[36m@@ -72,6 +71,15 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[32m+[m[32m      <file pinned="false" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/readme.txt">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state>[m
+[32m+[m[32m              <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+     </leaf>[m
+   </component>[m
+   <component name="FileTemplateManagerImpl">[m
+[36m@@ -90,6 +98,7 @@[m
+         <option value="$PROJECT_DIR$/build.gradle" />[m
+         <option value="$PROJECT_DIR$/src/main/java/com/colegio/comunidad/Persona.java" />[m
+         <option value="$PROJECT_DIR$/src/main/java/com/colegio/comunidad/Estudiante.java" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/readme.txt" />[m
+       </list>[m
+     </option>[m
+   </component>[m
+[36m@@ -112,32 +121,6 @@[m
+               <item name="Colegio" type="b2602c69:ProjectViewProjectNode" />[m
+               <item name="Colegio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+             </path>[m
+[31m-            <path>[m
+[31m-              <item name="Colegio" type="b2602c69:ProjectViewProjectNode" />[m
+[31m-              <item name="Colegio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+[31m-              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[31m-            </path>[m
+[31m-            <path>[m
+[31m-              <item name="Colegio" type="b2602c69:ProjectViewProjectNode" />[m
+[31m-              <item name="Colegio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+[31m-              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[31m-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+[31m-            </path>[m
+[31m-            <path>[m
+[31m-              <item name="Colegio" type="b2602c69:ProjectViewProjectNode" />[m
+[31m-              <item name="Colegio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+[31m-              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[31m-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+[31m-              <item name="java" type="462c0819:PsiDirectoryNode" />[m
+[31m-            </path>[m
+[31m-            <path>[m
+[31m-              <item name="Colegio" type="b2602c69:ProjectViewProjectNode" />[m
+[31m-              <item name="Colegio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+[31m-              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[31m-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />[m
+[31m-              <item name="java" type="462c0819:PsiDirectoryNode" />[m
+[31m-              <item name="colegio" type="462c0819:PsiDirectoryNode" />[m
+[31m-            </path>[m
+           </expand>[m
+           <select />[m
+         </subPane>[m
+[36m@@ -176,12 +159,12 @@[m
+       <option name="number" value="Default" />[m
+       <option name="presentableId" value="Default" />[m
+       <updated>1558528610949</updated>[m
+[31m-      <workItem from="1558528616134" duration="3417000" />[m
+[32m+[m[32m      <workItem from="1558528616134" duration="3997000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="3417000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="3997000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="1280" y="0" width="1366" height="730" extended-state="6" />[m
+[36m@@ -193,10 +176,10 @@[m
+       <window_info id="Favorites" side_tool="true" />[m
+       <window_info id="Capture Tool" />[m
+       <window_info id="Learn" />[m
+[31m-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24848485" />[m
+[32m+[m[32m      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24848485" />[m
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />[m
+       <window_info anchor="bottom" id="Build" weight="0.27065027" />[m
+[31m-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32996634" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32996634" />[m
+       <window_info anchor="bottom" id="Educational.CheckDetails" />[m
+       <window_info anchor="bottom" id="Event Log" side_tool="true" />[m
+       <window_info anchor="bottom" id="Database Changes" />[m
+[36m@@ -264,5 +247,12 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/readme.txt">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state>[m
+[32m+[m[32m          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+   </component>[m
+ </project>[m
+\ No newline at end of file[m
+[1mdiff --git a/readme.txt b/readme.txt[m
+[1mindex e69de29..ba61a93 100644[m
+[1m--- a/readme.txt[m
+[1m+++ b/readme.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mhola este proyecto trta la programcionor[m
+\ No newline at end of file[m
